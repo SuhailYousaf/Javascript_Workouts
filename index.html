@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="suhl"></h1>
+    <button onclick="change()">click me</button>
+    <p id="c"></p>
+
+<script>
+let text='suhail,are, you ,okey'
+let part =  text.slice(7,9);
+document.getElementById('suhl').innerHTML=part
+
+function change(){
+    document.getElementById('suhl').innerHTML="suhail"
+}
+
+  
+</script>
+
+</body>
+</html>
